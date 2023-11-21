@@ -1,11 +1,10 @@
-import { Button, Box, Container, Heading, Image, Icon, Link, List, ListItem, SimpleGrid, useColorModeValue } from "@chakra-ui/react"
+import { Button, Box, Container, Heading, Image, Icon, Link, List, ListItem, useColorModeValue } from "@chakra-ui/react"
 import { fira } from '../fonts'
 import { ChevronRightIcon } from '@chakra-ui/icons'
 import Section from '../components/section'
 import Paragraph from "../components/paragraph"
 import NextLink from 'next/link'
 import { BioSection, BioYear } from "../components/bio"
-import { GridItem } from '../components/grid-item'
 import { IoLogoGithub, IoLogoLinkedin } from 'react-icons/io5'
 
 const Page = () => {
@@ -63,7 +62,7 @@ const Page = () => {
             </BioSection>
             <BioSection>
                 <BioYear>2021</BioYear>
-                Completed the Bachelor's of Science program at Western Governors University for Software Development.
+                Completed the Bachelor&apos;s of Science program at Western Governors University for Software Development.
             </BioSection>
             <BioSection>
                 <BioYear>2021</BioYear>

@@ -1,5 +1,4 @@
-import { Container, Badge, Link, List, ListItem } from '@chakra-ui/react'
-import { ExternalLinkIcon } from '@chakra-ui/icons'
+import { Container, Badge, List, ListItem } from '@chakra-ui/react'
 import { Title, ProjectImage, Meta } from '../../components/project'
 import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
@@ -12,7 +11,7 @@ const Project = () => {
                     Chef&apos;s List <Badge>2021</Badge>
                 </Title>
                 <P>
-                Easily create weekly meal plans using your personal recipes, and let the app automatically generate a consolidated shopping list. It intelligently combines quantities, ensuring you buy only what you need. Simplify your meal prep and shopping with Chef's List
+                Easily create weekly meal plans using your personal recipes, and let the app automatically generate a consolidated shopping list. It intelligently combines quantities, ensuring you buy only what you need. Simplify your meal prep and shopping with Chef&apos;s List
                 </P>
                 <List ml={4} my={4}>
                     <ListItem>

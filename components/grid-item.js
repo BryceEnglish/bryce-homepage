@@ -20,7 +20,7 @@
     </Box>
  )
 
- export const ArtGridItem = ({ children, id, title, thumbnail }) => (
+ export const ArtGridItem = ({ children, title, thumbnail }) => (
     <Box w="100%" align="center"> 
         <Text mt={4} fontSize={20}>
             {title}

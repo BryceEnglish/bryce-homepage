@@ -1,7 +1,6 @@
 import Logo from './logo'
 import NextLink from 'next/link'
 import { HamburgerIcon } from '@chakra-ui/icons'
-import Head from 'next/head'
 import ThemeToggleButton from './theme-toggle-button'
 import {
     Container,
