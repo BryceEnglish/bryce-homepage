@@ -3,7 +3,7 @@ import Section from '../components/section'
 import { ProjectGridItem } from '../components/grid-item'
 import thumbProject1 from '../public/images/projects/project1.png'
 import thumbProject2 from '../public/images/projects/project2.png'
-import thumbProject3 from '../public/images/projects/project3.png'
+import thumbProject3 from '../public/images/projects/project4.png'
 
 const Projects = () => {
     return (
