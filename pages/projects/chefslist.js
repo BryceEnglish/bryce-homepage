@@ -20,7 +20,7 @@ const Project = () => {
                     </ListItem>
                     <ListItem>
                         <Meta>Stack</Meta>
-                        <span>Ract Native, SQL ROOM framework</span>
+                        <span>React Native, SQL ROOM framework</span>
                     </ListItem>
                 </List>
                 <ProjectImage src="/images/projects/main.png" />
