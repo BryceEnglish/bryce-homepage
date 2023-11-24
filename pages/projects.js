@@ -5,7 +5,6 @@ import thumbProject1 from '../public/images/projects/project1.png'
 import thumbProject2 from '../public/images/projects/project2.png'
 import thumbProject3 from '../public/images/projects/project3.png'
 
-
 const Projects = () => {
     return (
         <Container>
