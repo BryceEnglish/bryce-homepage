@@ -23,8 +23,8 @@ const Project = () => {
                         <span>Next.js, Tailwind, PostgreSQL, Typescript</span>
                     </ListItem>
                 </List>
-                <ProjectImage src="/images/projects/devilsadvocate1.png" />
-                <ProjectImage src="/images/projects/devilsadvocate2.png" />    
+                <ProjectImage src="/images/projects/da1.png"/>
+                <ProjectImage src="/images/projects/da2.png" />    
             </Container>
         </Layout>
     )
