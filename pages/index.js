@@ -1,4 +1,4 @@
-import { Button, Box, Container, Heading, Image, Icon, Link, List, ListItem, useColorModeValue } from "@chakra-ui/react"
+import { Button, Box, Container, Heading, Image, Icon, Link, List, ListItem } from "@chakra-ui/react"
 import { fira } from '../fonts'
 import { ChevronRightIcon } from '@chakra-ui/icons'
 import Section from '../components/section'
