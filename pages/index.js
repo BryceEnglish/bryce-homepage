@@ -9,12 +9,8 @@ import { IoLogoGithub, IoLogoLinkedin } from 'react-icons/io5'
 
 const Page = () => {
     return <Container className={`${fira.className} antialiased`}>
-        <Box borderRadius="lg" bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')} p={3} mb={6} align="center">
-            Web Stack: Next.js, Tailwind, ChakraUI, PostgreSQL.
-            Other: C#, .NET, SQL/MySQL, Blazor.
-        </Box>
-
-        <Box display={{md: 'flex' }}>
+      
+        <Box display={{md: 'flex' }} mt={5}>
             <Box flexGrow={1}>
                 <Heading as="h2" variant="page-title">
                     Bryce English

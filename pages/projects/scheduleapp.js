@@ -5,13 +5,13 @@ import Layout from '../../components/layouts/article'
 
 const Project = () => {
     return (
-        <Layout title="Chef's List">
+        <Layout title="College Scheduling App">
             <Container>
                 <Title>
-                    Chef&apos;s List <Badge>2021</Badge>
+                    College Scheduleing App <Badge>2020</Badge>
                 </Title>
                 <P>
-                Easily create weekly meal plans using your personal recipes, and let the app automatically generate a consolidated shopping list. It intelligently combines quantities, ensuring you buy only what you need. Simplify your meal prep and shopping with Chef&apos;s List
+                   React Native application for tracking college terms, classes, assessments, and mentors. Allows the user to email the mentor and take notes for each class.
                 </P>
                 <List ml={4} my={4}>
                     <ListItem>
@@ -20,12 +20,12 @@ const Project = () => {
                     </ListItem>
                     <ListItem>
                         <Meta>Stack</Meta>
-                        <span>Ract Native, SQL ROOM framework</span>
+                        <span>React Native, SQL ROOM Framework</span>
                     </ListItem>
                 </List>
-                <ProjectImage src="/images/projects/main.png" />
-                <ProjectImage src="/images/projects/recipes.png" /> 
-                <ProjectImage src="/images/projects/shoppinglist.png" />  
+                <ProjectImage src="/images/projects/scheduleapp1.png" />
+                <ProjectImage src="/images/projects/scheduleapp2.png" />
+                <ProjectImage src="/images/projects/scheduleapp3.png" />     
             </Container>
         </Layout>
     )

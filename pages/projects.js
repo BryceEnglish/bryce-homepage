@@ -3,6 +3,7 @@ import Section from '../components/section'
 import { ProjectGridItem } from '../components/grid-item'
 import thumbProject1 from '../public/images/projects/project1.png'
 import thumbProject2 from '../public/images/projects/project2.png'
+import thumbProject3 from '../public/images/projects/project3.png'
 
 const Projects = () => {
     return (
@@ -18,6 +19,9 @@ const Projects = () => {
                     </ProjectGridItem>
                     <ProjectGridItem id="devilsadvocate" title="Devil's Advocate (formerly MoeFangBoutique)" thumbnail={thumbProject2}>
                         Custom 3D printing business that specializes in BJD parts and accessories. Currently working with the artist on creating our own BJD!
+                    </ProjectGridItem>
+                    <ProjectGridItem id="scheduleapp" title="College Scheduling App" thumbnail={thumbProject3}>
+                        A college scheduling app developed with react native for tracking college terms, classes, assessments, and  mentors. Allows the user to email the mentor and take notes for each class.
                     </ProjectGridItem>
                 </Section>
             </SimpleGrid>
